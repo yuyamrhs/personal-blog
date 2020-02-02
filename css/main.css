@@ -45,7 +45,7 @@ header {
 
 .container {
     grid-area: cont;
-    margin: 50px;
+    margin: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -68,14 +68,15 @@ header {
     z-index: -1;
 } */
 
-.box1{
+.box{
     background-color: rgb(21, 44, 65);
     width: 300px;
-    height: 300px;
-    margin: 30px;
+    height: 400px;
+    margin: 15px;
+    color: white;
 }
 
-.box2{
+/* .box2{
     background-color: rgb(21, 44, 65);
     width: 300px;
     height: 300px;
@@ -127,9 +128,23 @@ header {
     width: 300px;
     height: 300px;
     margin: 30px;
-}
+} */
 
 footer {
     grid-area: ft;
     background: rgb(21, 44, 65);
+}
+
+#pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    width: 240px;
+    height: 240px;
+}
+
+#blogtitle {
+    text-align: center;
+    margin: 1em;
 }
