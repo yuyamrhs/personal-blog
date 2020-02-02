@@ -165,7 +165,7 @@ footer {
 
     .container {
         grid-area: cont;
-        margin-top: 20px;
+        margin: 20px 0 20px 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
