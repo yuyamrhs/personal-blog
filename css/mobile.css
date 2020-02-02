@@ -1,0 +1,88 @@
+@media (max-width:812px) {
+
+    .wrapper {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px auto 100px; 
+        grid-template-areas: 
+        "hd"
+        "tl"
+        "tr"
+        "cont"
+        "ft";
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-top: 0.5em;
+        margin-left: 1.5em;
+    }
+
+    .topleft {
+        grid-area: tl;
+        background-image: url(../images/hiking.jpg);
+        margin: 50px;
+    }
+
+    .topright {
+        grid-area: tr;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    #quote {
+        font-size: 4em;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bold;
+    }
+    #auther {
+        font-size: 30px;
+    }
+
+    .container {
+        grid-area: cont;
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .box{
+        background-color: rgb(21, 44, 65);
+        width: 300px;
+        height: 500px;
+        margin: 15px;
+        color: white;
+    }
+
+    #pics {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5em;
+        width: 240px;
+        height: 240px;
+    }
+
+
+    #blogtitle {
+        font-family: 'Patrick Hand', cursive;
+        text-align: center;
+        margin: 1em;
+    }
+
+    #sample-article {
+        text-align: justify;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+}
