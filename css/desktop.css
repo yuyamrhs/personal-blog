@@ -20,13 +20,14 @@ footer {
     .wrapper {
         margin: 0;
         display: grid;
-        grid-template-columns: 700px 1fr;
-        grid-template-rows: 100px 500px auto 100px; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px auto auto 100px; 
         grid-template-areas: 
         "hd hd"
         "tl tr"
         "cont cont"
         "ft ft";
+        gap: 30px;
     }
 
     h1 {
@@ -41,35 +42,36 @@ footer {
     .topleft {
         grid-area: tl;
         /* background-image: url(../images/hiking.jpg); */
-        margin: 50px;
+        margin: 20px 0 0 50px;
     }
 
     #main-pic {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 600px;
-        height: 400px;
+        width: 100%;
     }
 
     .topright {
         grid-area: tr;
-        margin-left: 20px;
-        margin-right: 50px;
+        /* margin-left: 20px;
+        margin-right: 50px; */
     }
 
     #quote {
-        font-size: 4em;
+        font-size: 5vw;
         font-family: 'Patrick Hand', cursive;
         font-weight: bold;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     #auther {
-        font-size: 30px;
+        font-size: 2vw;
     }
 
     .container {
         grid-area: cont;
-        margin: 30px;
+        /* margin: 30px; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
