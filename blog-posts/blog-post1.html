@@ -7,6 +7,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/blogpost.css'>
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -15,51 +16,77 @@
 
         </header>
             <div class="article">
-                <h2>Sample Blog Tytle</h2>
+                <h2>Sample Blog Title</h2>
                 <h3>Sample Heading</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores et earum officia iste voluptatem rerum, eveniet magnam facilis cumque aperiam sint sapiente aspernatur possimus eaque enim ipsa corrupti quia!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores et earum officia iste voluptatem rerum, eveniet magnam facilis cumque aperiam sint sapiente aspernatur possimus eaque enim ipsa corrupti quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique, hic beatae totam cupiditate impedit, blanditiis provident repudiandae accusantium dignissimos enim vel ratione explicabo mollitia deleniti, sed maiores dolorum inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cum ea doloribus eligendi aperiam in iusto provident vel sed maxime totam eveniet qui placeat, architecto quae, illum, natus nam. Suscipit.</p>
                 <h4>Sample Sub-heading</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis numquam, obcaecati sit molestiae aut architecto reiciendis dolor amet commodi eum perspiciatis possimus quo iste distinctio veniam nesciunt ipsum reprehenderit!</p>
+                <h4>Sample Sub-heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis numquam, obcaecati sit molestiae aut architecto reiciendis dolor amet commodi eum perspiciatis possimus quo iste distinctio veniam nesciunt ipsum reprehenderit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor iure quis, consectetur atque voluptatum ipsam maiores quibusdam animi repellat voluptatibus ad quisquam accusamus quod suscipit qui maxime odio natus dolorem!</p>
             </div>
 
             <div class="sidemenu">
-                <h4>Category</h4>
-                <ul>
-                    <li>Category-1</li>
-                    <li>Category-2</li>
-                    <li>Category-3</li>
-                    <li>Category-4</li>
-                    <li>Category-5</li>
-                </ul>
+                <div class="sidebox">
+                    <h4>Category</h4>
+                    <ul>
+                        <li>Category-1</li>
+                        <li>Category-2</li>
+                        <li>Category-3</li>
+                        <li>Category-4</li>
+                        <li>Category-5</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="bio">
-                <!-- <img src="" alt=""> -->
-                <h4>Yuya Morohoshi</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolore quam quia aliquam voluptatum incidunt temporibus, et voluptatem ipsa minus, non itaque ipsam ut blanditiis aperiam porro at expedita amet?</p>
+                <div class="biobox">
+                    <h4>Yuya Morohoshi</h4>
+                    <img id="profile-pic" src="../images/profile.jpg" alt="profile-picture">
+                    <p>A travel lover who was born as a son of another travel lover running a tiny local travel agency in Japan.</p>
+                    <form>
+                        <div class="container">
+                          <h4 id="subscribe">Subscribe to Newsletter</h4>
+                        </div>
+                      
+                        <div class="container">
+                          <input type="text" placeholder="Name" name="name" required>
+                          <input type="text" placeholder="Email address" name="mail" required>
+                    
+                        </div>
+                      
+                        <div class="container">
+                          <input type="submit" value="Subscribe">
+                        </div>
+                      </form>
+                </div>
             </div>
 
             <div class="subscribe">
-                <!-- <form action=""></form> -->
             </div>
 
             <div class="suggested">
-                <h3>Suggested Posts</h3>
+
                 <div class="box">
-                    <img id="pics" src="images/picture1.jpg" alt="mexican man">
+                    <img id="pics" src="../images/picture1.jpg" alt="mexican man">
                     <h3 id="blogtitle">Tips for walking around the city like locals</h3>
-                    <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p>
+                    <!-- <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p> -->
                 </div>
                 <div class="box">
-                    <img id="pics" src="images/picture2.jpg" alt="mexican man">
+                    <img id="pics" src="../images/picture2.jpg" alt="San Miguel de Allemde">
                     <h3 id="blogtitle">San Miguel de Allemde, walking in the old European-like city</h3>
-                    <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p>
+                    <!-- <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p> -->
                 </div>
                 <div class="box">
-                    <img id="pics" src="images/picture3.jpg" alt="mexican man">
+                    <img id="pics" src="../images/picture3.jpg" alt="Hermosa beach peer">
                     <h3 id="blogtitle">Beautiful spots for staying for a while after sunset in LA</h3>
-                    <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p>
+                    <!-- <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p> -->
                 </div>
+                <div class="box">
+                    <img id="pics" src="../images/picture4.jpg" alt="giant Sequoia tree">
+                    <h3 id="blogtitle">Beautiful spots for staying for a while after sunset in LA</h3>
+                    <!-- <p id="sample-article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat asperiores totam quasi sapiente aut numquam, quae ullam eos veritatis deserunt perferendis nesciunt officiis!</p> -->
+                </div>
+
                 
 
             </div>
