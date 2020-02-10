@@ -13,6 +13,24 @@ footer {
     background: rgb(21, 44, 65);
 }
 
+#title-logo a:link a:visited a:hover {
+    color: white;
+}
+
+#title-logo {
+    text-decoration: none;
+}
+
+a:link {
+    color: white; 
+}
+a:visited { 
+    color: azure; 
+}
+a:hover { 
+    color: lightskyblue; 
+}
+
 @media only screen 
     and (min-width:820px)
  {
@@ -28,6 +46,7 @@ footer {
         "cont cont"
         "ft ft";
         gap: 30px;
+        background-color: azure;
     }
 
     h1 {
@@ -117,6 +136,7 @@ footer {
     and (max-width:820px) {
 
     .wrapper {
+        background-color: azure;
         margin: 0;
         display: grid;
         grid-template-columns: 1fr;
